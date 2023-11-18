@@ -47,7 +47,7 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: build
-      run: ./arch/powerpc/tools/ci-build.sh
+      run: bash ./arch/powerpc/tools/ci-build.sh
 
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
